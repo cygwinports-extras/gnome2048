@@ -1,0 +1,13 @@
+GIT_URI="git://git.gnome.org/gnome-2048"
+inherit gnome2 git
+
+# should be gnome-2048, but that would be mistaken for a version number
+NAME="gnome2048"
+VERSION=0.1.0-20150120
+RELEASE=1
+CATEGORY="Games"
+SUMMARY="2048 game for GNOME"
+DESCRIPTION="GNOME 2048 is a clone of Gabriele Cirulli's 2048 sliding tile game."
+HOMEPAGE="https://wiki.gnome.org/Apps/2048"
+
+DIFF_EXCLUDES="*.c *_vala.stamp"
