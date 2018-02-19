@@ -3,7 +3,7 @@ inherit gnome2
 
 # should be gnome-2048, but that would be mistaken for a version number
 NAME="gnome2048"
-VERSION=3.22.0
+VERSION=3.26.1
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="2048 game for GNOME"
